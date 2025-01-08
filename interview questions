@@ -1,0 +1,59 @@
+Q: What type of projects you worked on ?
+A: I have worked on Kubernetes based projects, terraform based projects.
+
+Q: Have you worked on cloud Native Environment or Hybrid?
+A: Not Hybrid right now because my focus has been primarily cloud specific. There are applications which are running inside the organization which have a hybrid workload. Hybrid in the sense the database still continues to resides on-Premises and there is express route connection which is basically connecting them back to on-Premises environment and from there the data comes in and the web application would be exposing them if there is any pipeline which would be created on Cloud data factory or any other model. So, basically they are sitting from there but it is from my experience I have not involved in Hybrid platform it is just Cloud Native primarily.
+
+Q: You said you have worked on container based applications. So, have you faced any issues at the time of deployment?
+A: I think one of the most recent issue identified, again the root cause is still unknown. After this point for an Application which we were deploying on five nodes essentially right so there was one of the Specific node is not making the Application run in  proper manner and then we started at least  analyzing that node basically executed we went into that interactive debugging mode inside the container defining the files  which are actually there and we identified that there were certain behavior  which are not copied for that Specific container image which was running and to resolve that we had to pull down that  image from Specific Node and then restore that image there or deploy that image. So, this was one of weird issue which we still didn’t get time to address the issue what exactly was the cause.
+
+
+Q: Tell some negatives about Aws.
+A: account peering.
+
+Q: Tell me negatives about docker
+A: scaling & windows env is not that flxble than linux env
+
+Q: What is diff btwn docker & k8’s
+A: docker just maintains containers but not orchstrn. K8’s itslef handles contriner services & orchstrn.
+
+Q: If 1 server goes down in k8’s what will happen?
+A: k8’s itself identifies if any service is down it rebuilds the new server as part of configuration.
+
+Q: Whats is dif btwn chef, ansible, puppet
+
+Q: Diff btwn local ip & pyhsical ip
+A: 
+
+Q: Tell me Your favourite web server
+A:Apache (http server, tomcat server), nginx 
+
+Q: What is the use of khops & helms . Can you explain?
+
+Q: How many applicatins you worked. Tell me some applicatons you worked?
+A: java, .net, node js etc. & explain about your project
+
+Q: How you did application deployment. Can you explain end - end process.
+A:  
+
+Q: How you run the helms from repo.
+
+Q: Tell me about list & tupple in python.
+
+Q: How do u find errors in application deployment. Will u check in application deployment process or servers.
+A: I will check with deployment prcss. If evrythng is good in deplymnt prcss then i”ll go with the server confgrtns & find out if there are any conflicts in servers.
+
+Q: How do you check mongo status
+
+Q: Difference between git fetch & git pull
+
+Q: Tell me about DNS
+
+Q: How do you commit changes from new branch to the master branch? 
+A: when we made chnges in new branch & would like to merge it with master then we need to create pull request for the chnges to be applicable.
+
+Q: Diff btwn UDP & TCP
+
+Q: Are you interested in short term contract roles r long term contract roles & why can u expln?
+A: l“ll accept both. Longterm contracts because if the project starts from the scratch i don’t want to leave in middle i wanted to do completely like end to end process. 
+short term contracts because if there is critical & need my importance then i’m happy to do.
