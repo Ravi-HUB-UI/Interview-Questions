@@ -1,0 +1,33 @@
+What is the use of Dynatrace & tell your experience on Dynatrace
+
+How these Dynatrace  agents are installed on the resources. After installing what are the things you track & Monitor.
+
+I created a new pod and I need to see this newly created pod in Grafana dashboard. Tell me your approach?
+
+Tell me about your experience in Jenkins
+
+Can you walk me through the different stages of jenkins pipeline like how you build etc….
+
+Have you worked on Jenkins Agents
+
+In Devops pipeline I want unit test cases to be written & run during the pipeline and I need a code coverage to cover like there are 30 unit test cases and I want 80% of success of test cases to proceed to the next stage. How will you approach this task?
+
+What is Continuos Integration & How will you configure Continuos Integration?
+
+Write a module for ECS cluster service. How will you try to configure cluster, ECS service 
+
+How will you know disk utilization/Partition on Linux machine. How will you add or remove the volume?
+
+Client wants Security scam of Linux/windows resources and security scan has been run a gives a report like so on so patches are missing….So how will you fix this patch or patch management?
+
+How does Cloud Formation works? Can you elaborate how will you create resources?
+
+Tell me about IAM roles, SQS, SNS, Cloud Watch, EC2, S3 buckets
+
+What are the web servers that are installed in your current projects? Were any of web servers are part of clusters for high availability? How do you configure high availability for these EC2 instances? 
+
+How AWS knows that there is traffic and I need to add a server or how will it distritbute the Load?
+
+Lets say there are 4 Linux servers and there is  Auto scaling is configured for these servers. What is the additional component that needs infront of these 4 servers that needs to configured in your Autoscaling group?
+
+Let's say there is .net application. You want to deploy into Docker image. How Can you write Docker file?
