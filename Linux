@@ -1,0 +1,164 @@
+
+Q: I want command to display system information in linux?
+
+Ans: uname -a
+
+It displays the overview of the system, including the kernel name, hostname, kernel version, architecture, and operating system.
+
+
+Q: I have 10 users in the server. I want to see all of them. Tell me the command?
+
+Ans: who or users
+
+
+Q: I want to create directory inside that sub dir 1 inside that sub dir 2. Tell me the command?
+
+Ans: mkdir -p devops/aws/sre 
+
+
+Q: Is there any command to create file other than touch, vi in linux
+
+Ans: cat > newfile.txt
+
+After running this command, you can type text into the terminal. Press Ctrl+D to save the file and exit. The file newfile.txt will be created with the text you typed.
+
+
+Q: Tell me the command to see list of files and directories?
+
+Ans: tree
+
+
+Q:  >demo.json Explain about this command?
+
+Ans: nullify the data in demo.json file. Removing all the data
+
+
+Q: I want to see last 10 lines in file. Tell me the command?
+
+Ans: tail filename
+
+
+Q: I want to see first 10 lines in file. Tell me the command?
+
+Ans: head filename
+
+
+Q: I need to search some context and I don’t know the filename. Tell me how you will search?
+
+Ans: grep -l “search name” *
+
+
+Q: If you know the file name then how will you search?
+
+Ans: grep “search name” filename or grep -i “search name” filename 
+
+
+Q: Tell me values for read, write, execute?
+
+Ans: read = 4, write = 2, execute = 1
+
+
+Q: Tell me default umask value in Linux?
+
+Ans: 022 [file, dir]
+
+
+Q: What is default file & directory permission?
+
+Ans: 
+Files: By default, files are created with permissions of 644 (rw-r--r--).
+Directories: By default, directories are created with permissions of 755 (rwxr-xr-x).
+
+
+Q: I have file demo.txt with user name ravi. I need to change to root user. How will you do?
+
+Ans: Sudo chown root demo.txt
+
+
+Q: What are the commands for hard link and soft link. Tell me diff b/w hard link and soft link?
+
+Ans: 
+Hard link
+---------
+ln demo.txt demo-link.txt
+
+Soft link
+---------
+ln -s demo.txt demo-sl.txt 
+
+Hard link                                                 vs                            Soft link
+--------------                                                                       -------------------
+
+1.If you delete original file, link will not be deleted	                       1.If you delete original file, link also deleted
+2.hardlink not allowed for directory	                                         2.files and directories are allowed
+3.The inode number is same for original file and linked file	                 3.inode number is different 
+
+
+Q:    newfile.txt
+          Hello world!
+   I need to replace the Hello with Hi. Can I replace, If yes, How can I do?
+
+Ans: Yes, sed 's/Hello/Hi/' newfile.txt
+
+
+Q: Which command you use to check load average?
+
+Ans: w or uptime
+
+
+Q: Command to display the disk space usage?
+
+Ans: df -h
+
+
+Q: Suppose there are 10 rows of data in the file. I need to see from 2nd row to 5th row. How can I see?
+
+Ans: awk ‘NR==2, NR==5  {print}’  filename
+
+
+Q: What is the use of “last” command in Linux?
+
+Ans: It will display a list of the most recent login sessions for all users or a specific user on the system. 
+
+
+Q: kill -9 process_id. Why only 9 why not like 1, 2, 3……?
+
+Ans: 1) SIGHUP       2) SIGINT       3) SIGQUIT ………. 9) SIGKILL  
+
+So, we are using 9 to kill the process_id.
+
+
+Q: I want to view the data without unzip. Tell me the command?
+
+Ans: zcat demo.zip 
+
+
+Q: What is the Difference between vi/etc/sudoers and visudo?
+
+Ans:  
+
+vi/etc/sudoers
+-------------------
+Multiple users can access the file and can do the configurations.
+
+Visudo
+---------
+Only single user can access the file and he can do the configuration. If other users tries to open this file in same server then it displays like already opend/locked.
+
+
+Q: Tell me the command to delete user?
+
+Ans: sudo userdel -r <username>
+
+
+Q: What is tee command in Linux?
+
+Ans:  It will append the data and display the output
+
+echo "Hello, World!" | tee file1.txt file2.txt
+
+This will display "Hello, World!" in the terminal and save it in both file1.txt and file2.txt.
+
+
+
+
