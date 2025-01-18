@@ -1,0 +1,83 @@
+Q: What is the difference between GIT & GITHUB?
+
+Ans:
+GIT => CLI
+GITHUB => GUI 
+
+Q: Explain Git Workflow?
+
+Ans:
+Working Area => git add <filename>
+Staging Area => git commit -m “write message”
+Local Repo => git push 
+
+Q: I want to see recent 5 commit id’s. How can I see?
+
+Ans: git log -5
+
+
+Q: Diff b/w git add * & git add .
+
+Ans:
+Git add .  => It will move all files from the working area to the staging area including hidden files
+
+Git add *  => It will not move hidden files 
+
+Q: I want to move the file from STAGING AREA TO WORKING AREA. Tell me command?
+
+Ans:
+Git reset => for all files
+
+Git reset <filename> => specific file
+
+
+Q: I want to move the file from Local area to Working area
+
+Ans:
+Git revert commit-id
+
+
+Q: How to delete Remote repo branch from local?
+
+Ans:
+Git push aliasname  :branchname
+
+
+Q: Tell me about git rebase?
+
+Ans:
+Git rebase is a command that allows you to move or combine a sequence of commits to a new base commit. 
+
+Ex: master branch and development branch
+
+HEAD will be pointed to Master & development in a single commit
+
+
+Q:How to apply & drop stash at a time?
+
+Ans:
+Git stash pop
+
+
+Q: Tell me command for git cherry pick?
+
+Ans:
+Git cherry-pick commitid
+
+
+Q: What is the difference between git fetch and git pull
+
+Ans:
+Git fetch --> Remote Repo to Local Repo
+Git pull = git fecth + git merge
+
+
+Q: Now I’m in Staging branch, how to create UAT branch from Master branch without switching?
+
+Ans:
+Git checkout -b uat master
+
+
+
+
+
