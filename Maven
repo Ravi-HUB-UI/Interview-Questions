@@ -1,0 +1,81 @@
+Q: Tell me the difference between open-source s/w and free s/w?
+
+Ans:
+"Free" Software:
+A "free" software's functionality can be used as long as it provides the required features.
+"Open Source" Software:
+An "open source" software not only allows you to use its full functionality but also gives you the freedom to modify it and even add additional features (add-ons) as needed.
+
+
+Q: Is Maven used only for java projects or some other projects also?
+
+Ans: Java projects
+
+
+Q: Tell me the difference between .jar,.war,.ear?
+
+Ans: 
+
+.jar[Java Archieve]
+------------------------
+--->Standalone application
+--->Java code
+--->Jar contains [.class files]
+
+
+.war [web archieve]
+-----
+---> web application
+---> any application accessing from internet
+----> java code + web content [HTML/CSS3/JS/images]
+----> war contains [jar + HTML/CSS3/JS ]
+
+
+.ear [enterprise archieve]
+----------------------------------
+--->enterprise application
+--->Java code + [HTML/CSS3/JS] + modules
+--->ear contains [jar + war + modules]
+
+
+Q: What type of application you are using with maven build tool?
+
+Ans: You can say depend on requirement either .jar or .war or .ear
+
+
+Q: What is the default build script for Maven?
+
+Ans: pom.xml
+
+
+Q: Tell me about maven default lifecycle?
+
+Ans:
+The Maven Default Lifecycle Phases
+Here are the main phases in the default lifecycle:
+1.	validate: Checks if the project is correct and all required information is available.
+2.	compile: Compiles the source code of the project.
+3.	test: Runs unit tests using a testing framework (like JUnit), ensuring the compiled code is working as expected.
+4.	package: Packages the compiled code into a distributable format, such as a JAR, WAR, or EAR file.
+5.	verify: Runs checks on the packaged artifact to verify its correctness (like integration tests or other checks).
+6.	install: Installs the packaged artifact into the local repository, making it available for other projects on the local machine.
+7.	deploy: Copies the packaged artifact to a remote repository so that it can be shared with other developers or projects.
+
+Execution Flow
+When you run a command in Maven, such as mvn install or mvn clean deploy, Maven will automatically execute all the phases up to the requested one. For example, if you run mvn install, Maven will execute the following phases in order:
+1.	validate
+2.	compile
+3.	test
+4.	package
+5.	verify
+6.	install
+If you run mvn deploy, it will execute all of the above phases and additionally run the deploy phase.
+
+
+Q: What is the maven default repository?
+
+Ans:  ~/.m2/repository
+
+
+
+
