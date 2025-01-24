@@ -1,0 +1,29 @@
+Q: Tell me the list of application servers other than tomcat server?
+
+Ans: 
+Web sphere application server ---> IBM
+WebLogic ---> Oracle
+
+
+IQ: why you are going for Tomcat app server?
+
+ANS: Nowadays, most projects are developed based on the micro service architecture.
+  
+ In Java, MS's are developed with the help of springboot framework. For springboot default application server is tomcat.
+
+
+IQ: what is the difference between tomcat and jboss?
+
+ANS:   tomcat mainly used for web applicaions, Jboss used for web & enterprise applications.
+
+
+IQ: What is the difference between web servers and applications servers?
+
+Ans:
+
+ web servers                   vs		            app servers
+----------------------------------------------------------------------------
+
+1. Handle the static requests              1. Business logic , dynamic content
+2. Apache Httpd server,ngnix               2.  tomcat, wildfly,
+3. Load balancing 			                   3. Business logic
