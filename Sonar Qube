@@ -1,0 +1,61 @@
+Q: Tell me other code quality tools other than Sonar Qube?
+
+Ans:  Checkmarx, Coverity, Veracode, Pylint
+
+
+Q: what is the diff between code review and code coverage?
+
+Ans:
+
+code coverage:
+--------------
+Number of lines tested through unit test cases called as code coverage.
+
+In any project 80% need to satisfy.
+
+Benefits: Helps identify untested areas of code
+
+Tools: Tools like JaCoCo (for Java)
+
+
+code review:
+---------------
+Code review is the process of manually reviewing code by team members to find bugs, ensure to following  coding standards, and improve overall code quality.
+
+Benefits: It Leads to better software quality, fewer bugs, and promotes best practices within the development team.
+
+Tools: Code review tools include GitHub Pull Requests[PR].
+
+
+
+Q: Is Sonar Qube a  executable software?
+
+Ans: No, download as a zip and extract it.
+
+
+Q: If any issues found, in which format it will generate the reports?
+
+Ans: In case any issues found, It will generate in html format/ PDF format reports.
+
+
+Q: Can you list out few issues that can identify with the help of SQ?
+
+Ans:   
+   1. Duplicate code
+   2. Coding standards
+   3. unit test cases
+
+
+Q: Do you know inbuild DB for SonarQube?
+
+Ans: H2 is inbuild DB for SonarQube.
+
+
+Q: What version of SQ you have used?
+
+Ans: sonarqube-9.6.1
+
+
+Q: What is default port number for Sonarqubr server?
+
+Ans: 9000
